@@ -10,6 +10,9 @@
 	<link href="https://fonts.googleapis.com/css?family=Shojumaru" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Ceviche+One" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+	
 </head>
 <body >
 	<header>
@@ -24,13 +27,13 @@
 		<nav>
 			<ul>
 				<li>
-					<a href="">Twitter</a>
+					<a onClick="scrll('twitter')">Twitter</a>
 				</li>
 				<li>
-					<a href="">Instagram</a>
+					<a onClick="scrll('instagram')">Instagram</a>
 				</li>
 				<li>
-					<a href="">Youtube</a>
+					<a onClick="scrll('youtube')">Youtube</a>
 				</li>
 			</ul>
 		</nav>
@@ -41,7 +44,7 @@
 	<aside>
 		<a href="divulgacion.html">Si quiere ver el antiguo texto de divulgación, porfavor de click aqui</a>
 	</aside>
-	<section>
+	<section id="twitter">
 		<figure>
 			<a href="https://twitter.com/uboat46" alt="MioSid Twitter"><img src="img/logos/twitterbird.png" alt="Twitter logo"></a>
 		</figure>
@@ -51,7 +54,7 @@
 			</p>
 		</div>
 	</section>
-	<section>
+	<section id="instagram">
 		<figure>
 			<img src="img/logos/instagram.png" alt="Instagram logo">
 		</figure>
@@ -61,7 +64,7 @@
 			</p>
 		</div>
 	</section>
-	<section>
+	<section id="youtube">
 		<figure>
 			<img src="img/logos/youtube.png" alt="Youtube logo">
 		</figure>
