@@ -42,6 +42,7 @@ header nav ul li
 	display:inline-block;
 	color: white;
 	font-size: 3em;
+	width: 33%;
 }
 header nav ul li a
 {
