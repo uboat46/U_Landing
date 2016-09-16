@@ -64,3 +64,26 @@ header nav ul li a:hover
 	color:black;
 	border-radius: 15%;
 }
+
+section
+{
+	background-color: blue;
+	padding: 0;
+	margin: 1em 0;
+}
+
+section figure
+{
+	display: inline-block;
+	background-color: red;
+	margin: 1em 0;
+}
+
+
+section div
+{
+	display: inline-block;
+	background-color: red;
+	margin: 1em 10%;
+	padding: auto;
+}
