@@ -10,11 +10,13 @@ header
 	background-color: black;
 	padding: 1em;
 	margin: 1em auto;
+	width: 90%;
+	top:0px;
 }
 
 header figure
 {
-	width: 200px;
+	width: 20%;
 	margin: 1em auto;
 }
 
@@ -36,13 +38,15 @@ header nav ul
 {
 	list-style: none;
 	text-align: center;
+	width: 90%;
+	margin: 0 auto;
 }
 header nav ul li
 {
 	display:inline-block;
 	color: white;
 	font-size: 3em;
-	width: 33%;
+	margin:0;
 }
 header nav ul li a
 {
@@ -118,12 +122,4 @@ section figure a
 a:hover
 {
 	color:green;
-
-
-{
-	-webkit-transition: .8s;
-	-moz-transition: .8s;
-	-ms-transition: .8s;
-	-o-transition: .8s;
-	transition: .8s;
 }
