@@ -67,23 +67,39 @@ header nav ul li a:hover
 
 section
 {
-	background-color: blue;
-	padding: 0;
+	background-color: lightblue;
+
 	margin: 1em 0;
 }
 
+section *
+{
+	height: 200px;
+	background-color: lightblue;
+	
+}
 section figure
 {
 	display: inline-block;
-	background-color: red;
+	float: left;	
 	margin: 1em 0;
+	width: 25%;
 }
 
 
 section div
 {
 	display: inline-block;
-	background-color: red;
-	margin: 1em 10%;
-	padding: auto;
+	margin: 1em 0;
+	float: right;
+	width: 75%;
+	
+}
+section div p
+{
+	margin: 0;
+	height: 50%;
+	margin: 1em 0;
+	padding: 1em 0;
+	font-size: 2em;
 }
