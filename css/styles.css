@@ -8,45 +8,45 @@ header
 {
 	Font-family: 'Ceviche One', cursive;
 	background-color: black;
-	padding: 1em;
 	margin: 1em auto;
 	width: 90%;
 	top:0px;
+	height: 350px;
 }
 
 header figure
 {
 	width: 20%;
-	margin: 1em auto;
+	float:left;
+	height: 100px;
 }
 
 header figure img
 {
-	display: block;
-	width:100%;
 	border-radius: 50%;
+	max-width: 100%;
 }
-header p
+header figcaption
 {
 	color: white;
-	font-size: 5em;
-	margin: .2em auto;
+	font-size: 1.875em;
 	text-align: center;
-	width: auto;
+	margin: 0 auto;
 }
+
 header nav ul
 {
 	list-style: none;
 	text-align: center;
-	width: 90%;
+	width: inherit;
 	margin: 0 auto;
 }
 header nav ul li
 {
 	display:inline-block;
 	color: white;
-	font-size: 3em;
-	margin:0;
+	font-size: 2.5em;
+	margin-top: 150px;
 }
 header nav ul li a
 {
